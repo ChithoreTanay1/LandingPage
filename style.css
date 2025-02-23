@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  padding: 30px;
+  gap: 10%;
+  justify-content: space-evenly;
+}
+
+.navigation h1 {
+  margin: 0;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.navigation ul {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.navigation ul li {
+  margin-left: 20px;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  padding: 5% 15% 10% 15%;
+  justify-content: space-evenly;
+}
+
+.head img {
+  background-color: #474655;
+  width: 500px;
+  height: 250px;
+  border: none;
+}
+
+.context {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+.context h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.context p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.context a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  background-color: #3882f6;
+}
+
+.main {
+  padding: 5% 15% 10% 15%;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.domain {
+  display: flex;
+  gap: 5%;
+}
+
+ img{
+  width: 200px;
+  height: 200px;
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+
+.four p {
+  font-size: 18px;
+  color: #40f00a;
+}
+
+.text-format {
+  background-color: #e5e7eb;
+  padding: 5%;
+}
+
+.format {
+  padding: 0% 20% 0% 20%;
+  position: relative;
+}
+
+.format h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.format p {
+  font-size: 18px;
+  color: #1f2937;
+  text-align: right;
+  right: 25%; 
+  
+}
+
+.signup {
+  background-color: #3882f6;
+  color: white;
+  padding: 5%;
+  border-radius: 15px;
+  margin : 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.signupcont{
+    flex:1;
+}
+
+.signup a {
+  border: 2px solid white;
+  padding: 10px 40px;
+  border-radius: 10px;
+
+}
+
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
